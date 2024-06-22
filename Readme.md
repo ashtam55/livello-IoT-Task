@@ -8,7 +8,7 @@ This project creates a Python application that connects to a local Mosquitto MQT
 ## Prerequisites
 
 - Docker and Docker Compose installed
-- Mosquitto MQTT broker and clients installed
+- Mosquitto CLI MQTT client installed
 
 ## Setup
 
@@ -22,6 +22,8 @@ This project creates a Python application that connects to a local Mosquitto MQT
     docker compose up --build
     ```
 3. Subscribe the topic (preferrably on a new terminal)
+    You can use any mqtt client which is installed on your system, if not then you can install clients like Mosquitto, EMQX etc. They comes in both options CLI and GUI.
+    I am using Mosquitto CLI for which you have to run the below command to start listening.
     ```
     mosquitto_sub -h localhost -p 1884 -t /events
     ```
@@ -30,6 +32,15 @@ This project creates a Python application that connects to a local Mosquitto MQT
     ```
     mosquitto_pub -h localhost -p 1884 -t /events -m "Hello, MQTT"
     ```
+
+
+## Logs
+
+You can see the logs from the following location - 
+```
+Mosquitto     - mosquitto/log/mosquitto.log
+MQTT/Python   - logs/mqtt_reader.log
+```
 
 ## Directory Structure
 ```

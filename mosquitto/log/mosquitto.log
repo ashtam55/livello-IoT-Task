@@ -269,3 +269,50 @@
 1719031420: New connection from 172.24.0.1:53484 on port 1884.
 1719031420: New client connected from 172.24.0.1:53484 as mosqpub|3427-INHO-LP-00 (p1, c1, k60).
 1719031420: Client mosqpub|3427-INHO-LP-00 disconnected.
+1719032988: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1719034071: Client mqtt_reader closed its connection.
+1719034071: mosquitto version 2.0.18 terminating
+1719034071: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1719034089: mosquitto version 2.0.18 starting
+1719034089: Config loaded from /mosquitto/config/mosquitto.conf.
+1719034089: Opening ipv4 listen socket on port 1884.
+1719034089: Opening ipv6 listen socket on port 1884.
+1719034089: mosquitto version 2.0.18 running
+1719034090: New connection from 172.24.0.3:47254 on port 1884.
+1719034090: New client connected from 172.24.0.3:47254 as mqtt_reader (p5, c1, k60).
+1719034108: New connection from 172.24.0.1:53764 on port 1884.
+1719034108: New client connected from 172.24.0.1:53764 as mosqpub|5267-INHO-LP-00 (p1, c1, k60).
+1719034108: Client mosqpub|5267-INHO-LP-00 disconnected.
+1719034117: New connection from 172.24.0.1:53768 on port 1884.
+1719034117: New client connected from 172.24.0.1:53768 as mosqpub|5398-INHO-LP-00 (p1, c1, k60).
+1719034117: Client mosqpub|5398-INHO-LP-00 disconnected.
+1719034181: Client mqtt_reader closed its connection.
+1719034569: mosquitto version 2.0.18 starting
+1719034569: Config loaded from /mosquitto/config/mosquitto.conf.
+1719034569: Opening ipv4 listen socket on port 1884.
+1719034569: Opening ipv6 listen socket on port 1884.
+1719034569: mosquitto version 2.0.18 running
+1719035696: mosquitto version 2.0.18 terminating
+1719035696: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1719035716: mosquitto version 2.0.18 starting
+1719035716: Config loaded from /mosquitto/config/mosquitto.conf.
+1719035716: Opening ipv4 listen socket on port 1884.
+1719035716: Opening ipv6 listen socket on port 1884.
+1719035716: mosquitto version 2.0.18 running
+1719035717: New connection from 172.24.0.3:47476 on port 1884.
+1719035717: New client connected from 172.24.0.3:47476 as mqtt_reader (p5, c1, k60).
+1719035726: New connection from 172.24.0.1:53986 on port 1884.
+1719035726: New client connected from 172.24.0.1:53986 as mosqpub|7674-INHO-LP-00 (p1, c1, k60).
+1719035726: Client mosqpub|7674-INHO-LP-00 disconnected.
+1719035728: New connection from 172.24.0.1:53990 on port 1884.
+1719035728: New client connected from 172.24.0.1:53990 as mosqpub|7690-INHO-LP-00 (p1, c1, k60).
+1719035728: Client mosqpub|7690-INHO-LP-00 disconnected.
+1719035729: New connection from 172.24.0.1:53994 on port 1884.
+1719035729: New client connected from 172.24.0.1:53994 as mosqpub|7705-INHO-LP-00 (p1, c1, k60).
+1719035729: Client mosqpub|7705-INHO-LP-00 disconnected.
+1719035756: New connection from 172.24.0.1:54002 on port 1884.
+1719035756: New client connected from 172.24.0.1:54002 as mosqpub|7817-INHO-LP-00 (p1, c1, k60).
+1719035756: Client mosqpub|7817-INHO-LP-00 disconnected.
+1719035759: New connection from 172.24.0.1:54006 on port 1884.
+1719035759: New client connected from 172.24.0.1:54006 as mosqpub|7851-INHO-LP-00 (p1, c1, k60).
+1719035759: Client mosqpub|7851-INHO-LP-00 disconnected.

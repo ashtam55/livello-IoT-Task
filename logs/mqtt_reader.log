@@ -1,0 +1,5 @@
+2024-06-22 05:55:26,855 - __main__ - INFO - Received message on topic /events: Hello, MQTT
+2024-06-22 05:55:28,090 - __main__ - INFO - Received message on topic /events: Hello, MQTT
+2024-06-22 05:55:29,627 - __main__ - INFO - Received message on topic /events: Hello, MQTT
+2024-06-22 05:55:56,471 - __main__ - INFO - Received message on topic /events: Hello, MQTT
+2024-06-22 05:55:59,482 - __main__ - INFO - Received message on topic /events: Hello, MQTT
