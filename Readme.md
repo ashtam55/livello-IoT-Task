@@ -55,7 +55,7 @@ MQTT/Python   - logs/mqtt_reader.log
     │   └── mosquitto.conf
     ├── data
     └── log
-    │   └── mosquitto.conf
+    │   └── mosquitto.log
 ├── logs
 │   └── mqtt_reader.log
 ```
