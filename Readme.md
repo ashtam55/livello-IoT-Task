@@ -30,32 +30,33 @@ This project creates a Python application that connects to a local Mosquitto MQT
 
 4. Publish a message
     ```
-    mosquitto_pub -h localhost -p 1884 -t /events -m "Hello, MQTT"
+    mosquitto_pub -h localhost -p 1884 -t /events -m ‘{“sensor_value”:20.2}’
     ```
 
 
 ## Logs
 
 You can see the logs from the following location - 
-    ```
-    Mosquitto     - mosquitto/log/mosquitto.log
-    MQTT/Python   - logs/mqtt_reader.log
-    ```
+
+```
+Mosquitto     - mosquitto/log/mosquitto.log
+MQTT/Python   - logs/mqtt_reader.log
+```
 
 ## Directory Structure
-    ```
-    ├── Dockerfile
-    ├── docker-compose.yml
-    ├── requirements.txt
-    ├── mqtt_reader
-    │   └── mqtt_reader.py
-    └── mosquitto
-        ├── config
-        │   └── mosquitto.conf
-        ├── data
-        └── log
-        │   └── mosquitto.conf
-    ├── logs
-    │   └── mqtt_reader.log
-    ```
+```
+├── Dockerfile
+├── docker-compose.yml
+├── requirements.txt
+├── mqtt_reader
+│   └── mqtt_reader.py
+└── mosquitto
+    ├── config
+    │   └── mosquitto.conf
+    ├── data
+    └── log
+    │   └── mosquitto.conf
+├── logs
+│   └── mqtt_reader.log
+```
 
