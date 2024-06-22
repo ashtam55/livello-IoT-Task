@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  mqtt_broker:
+    image: eclipse-mosquitto
+    ports:
+      - "1884:1884"
+      - "9001:9001"
+    volumes:
+      - ./mosquitto/config:/mosquitto/config
+      - ./mosquitto/data:/mosquitto/data
+      - ./mosquitto/log:/mosquitto/log
+
+  mqtt_reader:
+    build:
+      context: .
+      dockerfile: ./test.dockerfile  # Ensure this path is correct
+    depends_on:
+      - mqtt_broker
+    environment:
+      - PYTHONUNBUFFERED=1
