@@ -3,3 +3,7 @@
 2024-06-22 05:55:29,627 - __main__ - INFO - Received message on topic /events: Hello, MQTT
 2024-06-22 05:55:56,471 - __main__ - INFO - Received message on topic /events: Hello, MQTT
 2024-06-22 05:55:59,482 - __main__ - INFO - Received message on topic /events: Hello, MQTT
+2024-06-22 06:09:09,847 - __main__ - INFO - Received message on topic /events: ‘{“sensor_value”:20.2}’
+2024-06-22 06:09:11,663 - __main__ - INFO - Received message on topic /events: ‘{“sensor_value”:20.2}’
+2024-06-22 06:09:13,623 - __main__ - INFO - Received message on topic /events: ‘{“sensor_value”:20.2}’
+2024-06-22 06:09:14,866 - __main__ - INFO - Received message on topic /events: ‘{“sensor_value”:20.2}’

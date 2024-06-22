@@ -316,3 +316,15 @@
 1719035759: New connection from 172.24.0.1:54006 on port 1884.
 1719035759: New client connected from 172.24.0.1:54006 as mosqpub|7851-INHO-LP-00 (p1, c1, k60).
 1719035759: Client mosqpub|7851-INHO-LP-00 disconnected.
+1719036549: New connection from 172.24.0.1:54108 on port 1884.
+1719036549: New client connected from 172.24.0.1:54108 as mosqpub|8476-INHO-LP-00 (p1, c1, k60).
+1719036549: Client mosqpub|8476-INHO-LP-00 disconnected.
+1719036551: New connection from 172.24.0.1:54112 on port 1884.
+1719036551: New client connected from 172.24.0.1:54112 as mosqpub|8502-INHO-LP-00 (p1, c1, k60).
+1719036551: Client mosqpub|8502-INHO-LP-00 disconnected.
+1719036553: New connection from 172.24.0.1:54116 on port 1884.
+1719036553: New client connected from 172.24.0.1:54116 as mosqpub|8523-INHO-LP-00 (p1, c1, k60).
+1719036553: Client mosqpub|8523-INHO-LP-00 disconnected.
+1719036554: New connection from 172.24.0.1:54120 on port 1884.
+1719036554: New client connected from 172.24.0.1:54120 as mosqpub|8530-INHO-LP-00 (p1, c1, k60).
+1719036554: Client mosqpub|8530-INHO-LP-00 disconnected.

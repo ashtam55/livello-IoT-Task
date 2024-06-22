@@ -37,22 +37,25 @@ This project creates a Python application that connects to a local Mosquitto MQT
 ## Logs
 
 You can see the logs from the following location - 
-```
-Mosquitto     - mosquitto/log/mosquitto.log
-MQTT/Python   - logs/mqtt_reader.log
-```
+    ```
+    Mosquitto     - mosquitto/log/mosquitto.log
+    MQTT/Python   - logs/mqtt_reader.log
+    ```
 
 ## Directory Structure
-```
-├── Dockerfile
-├── docker-compose.yml
-├── requirements.txt
-├── mqtt_reader
-│   └── mqtt_reader.py
-└── mosquitto
-    ├── config
-    │   └── mosquitto.conf
-    ├── data
-    └── log
-```
+    ```
+    ├── Dockerfile
+    ├── docker-compose.yml
+    ├── requirements.txt
+    ├── mqtt_reader
+    │   └── mqtt_reader.py
+    └── mosquitto
+        ├── config
+        │   └── mosquitto.conf
+        ├── data
+        └── log
+        │   └── mosquitto.conf
+    ├── logs
+    │   └── mqtt_reader.log
+    ```
 
