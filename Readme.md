@@ -14,7 +14,7 @@ This project creates a Python application that connects to a local Mosquitto MQT
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/mqtt-reader.git
+   git clone https://github.com/ashtam55/livello-IoT-Task.git
    cd mqtt-reader
 
 2. Start the Service:
